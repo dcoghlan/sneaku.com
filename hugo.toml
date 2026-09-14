@@ -1,8 +1,11 @@
 baseURL = 'https://www.sneaku.com/'
 locale = 'en-us'
 title = 'SneakU'
-blurb = 'Random stuff, some work related, some not'
 theme = "PaperMod"
+
+[params]
+  blurb = 'Random stuff, some work related, some not'
+  defaultTheme = "dark"
 
 [permalinks]
   posts = "/:year/:month/:day/:slug/"

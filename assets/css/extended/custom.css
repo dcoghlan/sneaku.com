@@ -4,30 +4,36 @@
 
 .logo a {
   color: #39dae6;
+  font-size: 2rem;
 }
-
-/* html[data-theme="light"] .post-content a {
-  color: #1d7874;
-}
-
-html[data-theme="dark"] .post-content a {
-  color: #5eead4;
-} */
 
 .post-content a:visited {
   color: #6b4c8a;
 }
 
 .post-content a {
-  color: #1d7874;
+  color: #269f99;
 }
 
 .post-content a:hover {
   color: #45a29e;
 }
 
-.post-content blockquote {
-  border-left-color: #39dae6;
+html[data-theme="light"] .post-content blockquote {
+  border-left-color: #5eead4;
   border-left-width: 4px;      /* thicker/thinner bar */
-  background-color: rgba(29, 120, 116, 0.05);  /* subtle tint matching the bar */
+  background-color: rgba(24, 100, 96, 0.05);  /* subtle tint matching the bar */
+}
+html[data-theme="dark"] .post-content blockquote {
+  border-left-color: #5eead4;
+  border-left-width: 4px;      /* thicker/thinner bar */
+  background-color: rgba(207, 219, 219, 0.05);  /* subtle tint matching the bar */
+}
+
+.site-blurb {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-left: 10px;
+  /* margin: 2px 0 0 0; */
+  font-style: italic;
 }
