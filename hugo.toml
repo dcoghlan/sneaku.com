@@ -1,0 +1,46 @@
+baseURL = 'https://www.sneaku.com/'
+locale = 'en-us'
+title = 'SneakU'
+blurb = 'Random stuff, some work related, some not'
+theme = "PaperMod"
+
+[permalinks]
+  posts = "/:year/:month/:day/:slug/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 30
+
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/dalecoghlan"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/dcoghlan"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://au.linkedin.com/in/dalecoghlan"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "index.xml"

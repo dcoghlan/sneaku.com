@@ -1,0 +1,27 @@
+:root {
+  --main-width: 1000px;
+}
+
+.logo a {
+  color: #39dae6;
+}
+
+/* html[data-theme="light"] .post-content a {
+  color: #1d7874;
+}
+
+html[data-theme="dark"] .post-content a {
+  color: #5eead4;
+} */
+
+.post-content a:visited {
+  color: #6b4c8a;
+}
+
+.post-content a {
+  color: #1d7874;
+}
+
+.post-content a:hover {
+  color: #45a29e;
+}
