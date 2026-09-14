@@ -25,3 +25,9 @@ html[data-theme="dark"] .post-content a {
 .post-content a:hover {
   color: #45a29e;
 }
+
+.post-content blockquote {
+  border-left-color: #39dae6;
+  border-left-width: 4px;      /* thicker/thinner bar */
+  background-color: rgba(29, 120, 116, 0.05);  /* subtle tint matching the bar */
+}
