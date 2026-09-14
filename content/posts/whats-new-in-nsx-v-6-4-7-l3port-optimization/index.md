@@ -5,7 +5,10 @@ categories:
   - "api"
   - "nsx"
   - "vmware"
-coverImage: "vsipioctl.png"
+cover:
+  image: "images/image-3.png"
+  relative: true
+  hiddenInSingle: true #controls visibility of cover image in single page post
 ---
 
 Late last week, the latest version of NSX vSphere, 6.4.7 was released for General Availability (GA). Although it was mainly a maintenance release, there were a couple of items listed in the What's New section of the release notes. I won't list them all here, and instead I will just provide you with a link.

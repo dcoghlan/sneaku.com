@@ -5,6 +5,14 @@ categories:
   - "scripts"
 Params:
   ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+cover:
+  image: "images/image-2.png"
+  alt: "VMware Configuration Maximums comparison tool"
+  caption: "Comparing configuration maximums between releases"
+  relative: true
+  hiddenInSingle: true #controls visibility of cover image in single page post
 ---
 
 A couple of weeks ago when I was helping a colleague out with a script to count the number of DFW rules on a host ( [https://www.sneaku.com/2020/11/18/monitoring-nsx-fw-rules-per-host/](https://www.sneaku.com/2020/11/18/monitoring-nsx-fw-rules-per-host/) ), I needed to see what other (if any) configuration maximums had changed between 2 releases of NSX-T.
